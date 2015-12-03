@@ -1,0 +1,10 @@
+.*.swp
+.*.swo
+.DS_Store
+.env.*
+.eslintrc
+.git
+LICENSE
+README.md
+docker-compose-*
+node_modules

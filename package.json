@@ -1,0 +1,38 @@
+{
+  "name": "@starefossen/node-docker-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate project for Node.js in a Docker environment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "grunt": "grunt",
+    "lint": "eslint test/ lib/ apps/ index.js",
+    "test": "mocha -r test/support/env -R spec -b --check-leaks test.js",
+    "watch": "mocha -r test/support/env -R progress -b --check-leaks -w test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/starefossen/node-docker-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "boilerplate"
+  ],
+  "author": "Hans Kristian Flaatten <hans@starefossen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starefossen/node-docker-boilerplate/issues"
+  },
+  "homepage": "https://github.com/starefossen/node-docker-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^1.10.2",
+    "eslint-config-airbnb": "^1.0.2",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
